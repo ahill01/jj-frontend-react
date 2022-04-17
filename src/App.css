@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+
+.artistlinks > a{
+  font-family:monospace;
+  background-color:rgb(186, 223, 179);
+  padding-left:10px;
+  padding-right:10px;
+}
+a:hover{
+background-color: #ddd;
+color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+display:block;
+align-content: center;
+margin-left:auto;
+margin-right:auto;
+width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blogentry{
+  border: slateblue;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  text-align:left;
+  margin-top:10px;
+  margin-left:125px;
+  margin-right:125px;
+  padding-top: 15px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size: large;
+  font-family:optima;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blogentry h2 {
+  font-family:optima;
+  font-size:xx-large;
+  color:rgb(61, 7, 100);
 }
-
-.App-link {
-  color: #61dafb;
+.blogentry h3{
+  font-family:optima;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pubdate{
+  font-family:optima;
+  font-size:small;
+  font-weight: 200;
+}
+p{
+  padding-left: 10px;
+  padding-right:10px;
+}
+h2 > a {
+  color:rgb(61, 7, 100);
 }
