@@ -3,8 +3,7 @@ function Navbar(){
     return(
         <div>
         <div className="header">
-        <h1>G.U.S.H.</h1>
-        <h2>Great Underrated Songs, Honey</h2>
+        <h1>Welcome To The Jam Jamboree!</h1>
         </div>
         <div id="navbar" className= "flex-container">
             <a id ="blog" href="./blog.html">Blog</a>

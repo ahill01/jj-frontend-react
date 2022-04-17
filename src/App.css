@@ -17,6 +17,7 @@ margin-left:auto;
 margin-right:auto;
 width: 50%;
 }
+
 .blogentry{
   border: slateblue;
   background-color: hsla(0, 100%, 90%, 0.3);
@@ -50,4 +51,109 @@ p{
 }
 h2 > a {
   color:rgb(61, 7, 100);
+}
+
+h1{
+  font-family:monospace;
+  font-size:xx-large;
+}
+div#featured > h1{
+  font-family:optima;
+}
+
+h2{
+  font-family:monospace;
+  font-size:x-large;
+}
+
+h3{
+  font-family:monospace;
+}
+.header{
+  background-color:lavender;
+  text-align: center;
+  padding:20px;
+}
+#navbar{
+overflow: hidden;
+background-color: #333
+}
+.flex-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}   
+div#navbar > a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: larger;
+}
+div#navbar > a:hover{
+background-color: #ddd;
+color: black;
+}
+#home {
+  background-color:lightsalmon;
+}
+#blog {
+  background-color: lightskyblue;
+}
+#playlists {
+  background-color: mediumaquamarine;
+}
+#submissionPage{
+  background-color:plum;
+}
+#faq{
+  background-color:rgba(233, 211, 90, 0.904);
+}
+
+#search {
+  background-color: pink;
+  width: 50%;
+  font-family:monospace;
+}
+p{
+  font-family:optima;
+}
+#AboutMe{
+  font-family:optima;
+}
+
+#emailbox{
+  background-color:plum; 
+  padding:15px;
+  border:5px solid indigo;
+  float:left;
+}
+#twitter{
+  background-color:rgb(131, 185, 221); 
+  padding:15px;
+  border:5px solid indigo;
+  float:left;
+}
+#insta{
+  background-color:rgb(106, 160, 70); 
+  padding:15px;
+  border:5px solid indigo;
+  float:left;
+}
+div.contact > a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+div#faqInfo {
+  padding:15px;
+  float:left;
 }
