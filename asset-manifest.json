@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jj-frontend-react/static/css/main.a3b1c80c.css",
-    "main.js": "/jj-frontend-react/static/js/main.e92eeb00.js",
-    "static/js/787.91434636.chunk.js": "/jj-frontend-react/static/js/787.91434636.chunk.js",
-    "index.html": "/jj-frontend-react/index.html",
-    "main.a3b1c80c.css.map": "/jj-frontend-react/static/css/main.a3b1c80c.css.map",
-    "main.e92eeb00.js.map": "/jj-frontend-react/static/js/main.e92eeb00.js.map",
-    "787.91434636.chunk.js.map": "/jj-frontend-react/static/js/787.91434636.chunk.js.map"
+    "main.css": "/www.thejamjamboree.com/static/css/main.a3b1c80c.css",
+    "main.js": "/www.thejamjamboree.com/static/js/main.b159bbdf.js",
+    "static/js/787.91434636.chunk.js": "/www.thejamjamboree.com/static/js/787.91434636.chunk.js",
+    "index.html": "/www.thejamjamboree.com/index.html",
+    "main.a3b1c80c.css.map": "/www.thejamjamboree.com/static/css/main.a3b1c80c.css.map",
+    "main.b159bbdf.js.map": "/www.thejamjamboree.com/static/js/main.b159bbdf.js.map",
+    "787.91434636.chunk.js.map": "/www.thejamjamboree.com/static/js/787.91434636.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3b1c80c.css",
-    "static/js/main.e92eeb00.js"
+    "static/js/main.b159bbdf.js"
   ]
 }
