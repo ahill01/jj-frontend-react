@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/www.thejamjamboree.com/static/css/main.a3b1c80c.css",
-    "main.js": "/www.thejamjamboree.com/static/js/main.b159bbdf.js",
-    "static/js/787.91434636.chunk.js": "/www.thejamjamboree.com/static/js/787.91434636.chunk.js",
-    "index.html": "/www.thejamjamboree.com/index.html",
-    "main.a3b1c80c.css.map": "/www.thejamjamboree.com/static/css/main.a3b1c80c.css.map",
-    "main.b159bbdf.js.map": "/www.thejamjamboree.com/static/js/main.b159bbdf.js.map",
-    "787.91434636.chunk.js.map": "/www.thejamjamboree.com/static/js/787.91434636.chunk.js.map"
+    "main.css": "/static/css/main.a3b1c80c.css",
+    "main.js": "/static/js/main.181e217b.js",
+    "static/js/787.91434636.chunk.js": "/static/js/787.91434636.chunk.js",
+    "index.html": "/index.html",
+    "main.a3b1c80c.css.map": "/static/css/main.a3b1c80c.css.map",
+    "main.181e217b.js.map": "/static/js/main.181e217b.js.map",
+    "787.91434636.chunk.js.map": "/static/js/787.91434636.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3b1c80c.css",
-    "static/js/main.b159bbdf.js"
+    "static/js/main.181e217b.js"
   ]
 }
