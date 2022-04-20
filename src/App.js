@@ -1,10 +1,16 @@
-import {Route, Router, Switch} from "react-router-dom"
+import {BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams} from "react-router-dom"
 import React, {useState, useEffect} from "react"
 
 import Navbar from "./components/Navbar"
 import './App.css';
 import BlogPostList from "./components/BlogPostList"
 import LandingPage from "./components/LandingPage";
+import PlaylistContainer from "./components/PlaylistContainer"
 
 function App() {
   
@@ -16,8 +22,22 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <BlogPostList></BlogPostList>
+      <Router>
+      <Switch>
+      <Route exact path="/">
+        <Navbar/>  
+        <BlogPostList/>
+      </Route>
+      <Route exact path="/blog">
+        <Navbar/>  
+        <BlogPostList/>
+      </Route>
+        <Route exact path="/playlists">
+        <Navbar/>
+        <PlaylistContainer/>
+        </Route>
+        </Switch>
+        </Router>
     </div>
   );
 
