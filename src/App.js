@@ -11,6 +11,8 @@ import './App.css';
 import BlogPostList from "./components/BlogPostList"
 import LandingPage from "./components/LandingPage";
 import PlaylistContainer from "./components/PlaylistContainer"
+import SubmissionPage from "./components/SubmissionPage";
+import FaqPage from "./components/FaqPage";
 
 function App() {
   
@@ -21,24 +23,32 @@ function App() {
 // },[])
 
   return (
-    <div className="App">
-      <Router>
-      <Switch>
+  <div className="App">
+  <Router>
+    <Switch>
       <Route exact path="/">
         <Navbar/>  
-        <BlogPostList/>
+        <LandingPage/>
       </Route>
       <Route exact path="/blog">
         <Navbar/>  
         <BlogPostList/>
       </Route>
         <Route exact path="/playlists">
-        <Navbar/>
-        <PlaylistContainer/>
+          <Navbar/>
+          <PlaylistContainer/>
         </Route>
-        </Switch>
-        </Router>
-    </div>
+        <Route exact path="/submissionPage">
+          <Navbar/>
+          <SubmissionPage/>
+        </Route>
+        <Route exact path="/faq">
+          <Navbar/>
+          <FaqPage/>
+        </Route>
+      </Switch>
+    </Router>
+  </div>
   );
 
 }  

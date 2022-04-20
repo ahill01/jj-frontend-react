@@ -9,7 +9,7 @@ function Navbar(){
             <a id ="blog" href="./blog">Blog</a>
             <a id = "playlists" href="./playlists">Playlists</a>
             <a id="faq" href="./faq">About/FAQ</a>
-            <a id="submissionPage" href="./submissionPage.html">Submissions</a>
+            <a id="submissionPage" href="./submissionPage">Submissions</a>
         </div>
         </div>
     )
