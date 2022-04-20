@@ -1,11 +1,19 @@
-import {Route, Router, Switch} from "react-router-dom"
+import {BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams} from "react-router-dom"
 import React, {useState, useEffect} from "react"
 
 import Navbar from "./components/Navbar"
 import './App.css';
 import BlogPostList from "./components/BlogPostList"
 import LandingPage from "./components/LandingPage";
-import ComingSoon from "./components/ComingSoon"
+import PlaylistContainer from "./components/PlaylistContainer"
+import SubmissionPage from "./components/SubmissionPage";
+import FaqPage from "./components/FaqPage";
+
 function App() {
   
 // useEffect(() => {
@@ -15,10 +23,32 @@ function App() {
 // },[])
 
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <ComingSoon></ComingSoon>
-    </div>
+  <div className="App">
+  <Router>
+    <Switch>
+      <Route exact path="/">
+        <Navbar/>  
+        <LandingPage/>
+      </Route>
+      <Route exact path="/blog">
+        <Navbar/>  
+        <BlogPostList/>
+      </Route>
+        <Route exact path="/playlists">
+          <Navbar/>
+          <PlaylistContainer/>
+        </Route>
+        <Route exact path="/submissionPage">
+          <Navbar/>
+          <SubmissionPage/>
+        </Route>
+        <Route exact path="/faq">
+          <Navbar/>
+          <FaqPage/>
+        </Route>
+      </Switch>
+    </Router>
+  </div>
   );
 
 }  
