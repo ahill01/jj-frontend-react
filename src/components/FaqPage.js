@@ -1,5 +1,5 @@
 import React from "react"
-
+import selfie from "../selfie.png"
 function FaqPage(){
 
     
@@ -8,7 +8,7 @@ function FaqPage(){
           <h1>FAQ</h1>
           <div id="aboutMe">
             <h2>Who's the Writer?</h2>
-            <img src="./images/me.png" alt="A very cute selfie of Allison"/>
+            <img src={selfie}/>
             <p>Hi! I am! <b>My name is Allison Hill</b> (<em>she/her/hers</em>), and I'm the one who made pretty much everything you see here (minus the music & the playlisting tool, <a href ="https://bndcmpr.co/f65cd3b9
               ">bndcmpr</a> </p>
           </div>
