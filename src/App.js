@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import './App.css';
 import BlogPostList from "./components/BlogPostList"
 import LandingPage from "./components/LandingPage";
-
+import ComingSoon from "./components/ComingSoon"
 function App() {
   
 // useEffect(() => {
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <BlogPostList></BlogPostList>
+      <ComingSoon></ComingSoon>
     </div>
   );
 
